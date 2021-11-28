@@ -1,0 +1,16 @@
+.skills{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.skill{
+    background-color: rgb(51, 75, 72);
+    border-radius: 5px;
+    
+}
+.skill-name{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
