@@ -1,6 +1,6 @@
 .main-intro{
     padding: 150px 10px;
-    border-bottom: 1px solid red;
+    background-color: #272525e8;
 }
 .intro{
     text-align: left;
@@ -10,4 +10,46 @@
 }
 .intro h3{
     color: #0fb;
+}
+.gretting{
+    color: #0fb;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+}
+.resume-button{
+    background-color: #0fb;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #262626;
+}
+.contact-button{
+    color: white;
+    background-color: #262626;
+    border: 2px solid #0fb;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:668px) {
+    .main-intro{
+        padding: 150px 30px;
+    }
+    .intro{
+        text-align: center;
+    }
+    .icon{
+        flex-direction: row;
+        text-align: center;
+    }
+    .fab{
+        margin: 40px;
+        text-align: center;
+    }
+    .intro h1{
+        font-size: 40px;
+    }
 }

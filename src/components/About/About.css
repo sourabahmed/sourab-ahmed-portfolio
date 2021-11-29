@@ -4,7 +4,6 @@
     margin: 20px 100px;
     padding: 50px;
     overflow: hidden;
-    border-bottom: 1px solid red;
 }
 .about-img img {
     width: 60%;
@@ -12,4 +11,18 @@
 }
 .about-intro{
     text-align: left;
+}
+.about-text{
+    border-bottom: 3px solid #0fb;
+}
+@media only screen and (max-width:668px) {
+    .about{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+        padding: 10px;
+    }
+    .about-img img{
+        margin-top: 50px;
+        width: 90%;
+    }
 }

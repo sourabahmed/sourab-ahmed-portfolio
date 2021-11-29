@@ -1,0 +1,25 @@
+.me{
+    color: #0fb;
+    font-size: 40px;
+    font-weight: bold;
+}
+.header-button{
+    color: white;
+    background-color: #262626;
+    border: 2px solid #0fb;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.nav-link:hover{
+    border-bottom: 3px solid #0fb;
+}

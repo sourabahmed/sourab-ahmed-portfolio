@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="p-5 bg-light text-dark">
-            <p>Sourab Ahmed</p>
+        <div className="p-5 text-light">
+            <p> &copy;Sourab Ahmed</p>
         </div>
     );
 };
