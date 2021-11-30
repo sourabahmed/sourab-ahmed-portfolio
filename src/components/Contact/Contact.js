@@ -24,7 +24,7 @@ const Contact = () => {
             <div className="contact row" id="contact">
                 <div className="contact-address col-sm-12 col-lg-4">
                     <div>
-                        <h6 className="address"> <i class="fas iconic fa-globe-asia"></i> Sylhet Banglades</h6>
+                        <h6 className="address"> <i class="fas iconic fa-globe-asia"></i> Sylhet, Banglades</h6>
                         <h6 className="address"> <i class="fas iconic fa-envelope"></i> sourabahmed546@gmail.com</h6>
                         <h6 className="address"> <i class="fas iconic fa-phone-alt"></i> +880 1301-996733</h6>
                     </div>

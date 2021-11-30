@@ -54,7 +54,7 @@
 @media only screen and (max-width:668px){
     .contact{
         margin: 10px;
-        padding: 10px;
+        padding: 5px;
     }
     .iconic{
         padding: 10px;
@@ -64,7 +64,7 @@
         width: 90%;
     }
     .address{
-        margin: 10px;
+        margin: 15px 5px;
     }
     
 }
