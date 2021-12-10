@@ -28,3 +28,65 @@ const Header = () => {
 };
 
 export default Header;
+
+
+
+// import React from 'react'
+// import { Navbar } from 'responsive-navbar-react'
+// import 'responsive-navbar-react/dist/index.css'
+
+// const Header = () => {
+//   const props = {
+//     items: [
+//       {
+//         text: 'Home',
+//         link: '/'
+//       },
+//       {
+//         text: 'About',
+//         link: '#about'
+//       },
+//       {
+//         text: 'Skills',
+//         link: '#skills'
+//       },
+//       {
+//         text: 'Portfolio',
+//         link: '#portfolio'
+//       },
+//       {
+//         text: 'Blogs',
+//         link: '/blogs'
+//       },
+//       {
+//         text: 'Contact',
+//         link: '#contact'
+//       }
+//     ],
+//     logo: {
+//       text: 'Sourab',
+//     },
+//     style: {
+//       barStyles: {
+//         background: '#262626',
+//         color: '#0fb',
+//         position: 'fixed'
+//       },
+//       linkStyles: {
+//         color: '#0fb',
+//         fontSize: '20px'
+//       },
+//       logoStyles: {
+//         color: '#0fb',
+//         fontSize: '25px'
+//       },
+//       sidebarStyles: {
+//         background: '#262626',
+//         buttonColor: 'green'
+//       }
+//     }
+//   }
+//   return <Navbar {...props} />
+// }
+
+// export default Header;

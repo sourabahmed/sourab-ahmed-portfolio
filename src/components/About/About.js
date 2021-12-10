@@ -2,19 +2,13 @@ import React from 'react';
 import AboutImg from '../../Images/C360_2020-01-18-20-48-29-274.jpg'
 import './About.css';
 
-import { fadeInLeft } from 'react-animations';
-import Radium, {StyleRoot} from 'radium';
-
 const About = () => {
-    const styles = {
-        fadeInLeft: {
-          animation: 'x 1.5s',
-          animationName: Radium.keyframes(fadeInLeft, 'fadeInLeft')
-        }
-      }
+
     return (
-        <StyleRoot style={styles.fadeInLeft}>
-            <div className="about" id="about">
+        <div className="about" id="about" 
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
             <div className="about-intro">
                 <h6> Who I am</h6>
                 <h3 className="about-text">About me</h3>
@@ -32,7 +26,6 @@ const About = () => {
                 <img className="img-fluid" src={AboutImg} alt="" />
             </div>
         </div>
-        </StyleRoot>
     );
 };
 

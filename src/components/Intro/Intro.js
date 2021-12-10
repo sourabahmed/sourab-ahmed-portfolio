@@ -11,7 +11,7 @@ const Intro = () => {
             </div>
             <div className="col-sm-12 col-lg-10 intro order-1 order-lg-2">
                 <h4 className="gretting">Hi there! I am</h4>
-                <h1>Sourab Ahmed</h1>
+                <h1 >Sourab Ahmed</h1>
                 <h3>Front end developer</h3>
                 <h5 className="mb-5">Web developer || Programmer</h5>
                 <a target="_blank" href="https://drive.google.com/file/d/1ve6S7Ky6rmaRFKUkt8ehHx03NdyhkN4h/view?usp=sharing"><button className=" resume-button">Get Resume</button></a>

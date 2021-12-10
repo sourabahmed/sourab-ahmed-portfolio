@@ -19,12 +19,15 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <div id="contact">
+        <div id="contact" 
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
             <h2>Contact me</h2>
             <div className="contact row" id="contact">
                 <div className="contact-address col-sm-12 col-lg-4">
                     <div>
-                        <h6 className="address"> <i class="fas iconic fa-globe-asia"></i> Sylhet, Banglades</h6>
+                        <h6 className="address"> <i class="fas iconic fa-globe-asia"></i> Sylhet, Bangladesh</h6>
                         <h6 className="address"> <i class="fas iconic fa-envelope"></i> sourabahmed546@gmail.com</h6>
                         <h6 className="address"> <i class="fas iconic fa-phone-alt"></i> +880 1301-996733</h6>
                     </div>

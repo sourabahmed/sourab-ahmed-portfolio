@@ -6,7 +6,10 @@ import Glassy from '../../Images/glassymart.png';
 
 const Portfolio = () => {
     return (
-        <div id="portfolio">
+        <div id="portfolio" 
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
             <h2>My Portfolio</h2>
             <div className="portfolios">
                 <div className="portfolio">
